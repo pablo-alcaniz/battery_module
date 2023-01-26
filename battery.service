@@ -1,0 +1,9 @@
+[Unit]
+Description=bateria
+ 
+[Service]
+Restart=always
+ExecStart=/usr/bin/python3 /bin/battery_module/battery.py
+ 
+[Install]
+WantedBy=multi-user.target
