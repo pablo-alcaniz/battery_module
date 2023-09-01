@@ -10,3 +10,4 @@ For log: /bin/battery_module/log_battery_module \
 # Dependencies:
 · cpupower \
 · blight (AUR) \
+· x86_energy_perf_policy \
